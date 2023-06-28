@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gotham";
+  background-color: #f8f8ff;
+}
+
+.conteudo-geral {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr;
+}
+
+
+
+.esquerda-superior {
+  margin: 37px;
+  padding-left: 23px;
+  font-size: 13px;
+}
+
+.esquerda-superior p {
+  color: #c0c0c0;
+  letter-spacing: 10px;
+}
+
+.esquerda-subcontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  background-color: white;
+}
+
+.linha {
+  background-color: #808080;
+  width: 1px;
+  height: 220px;
+  position: absolute;
+  top: 35px;
+  left: -9px;
+}
+
+.esquerda-links {
+  position: relative;
+  display: grid;
+  margin: 35px;
+  padding-top: 40px;
+}
+
+.esquerda-links a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #a9a9a9;
+  margin-top: 25px;
+}
+
+.esquerda-links a:hover {
+  color: black;
+}
+
+.esquerda-inferior {
+  color: #a9a9a9;
+  padding-top: 15px;
+  margin: 30px;
+}
+
+.container-direita {
+  background-image: url("hotel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.superior-direita {
+  margin-top: 4%;
+  margin-right: 3%;
+  text-align: end;
+}
+
+.superior-direita a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.superior-direita a:hover {
+  color: black;
+}
+
+.inferior-direita {
+  padding-left: 40px;
+  padding-top: 40%;
+  color: white;
+  font-size: 24px;
+  justify-items: end;
+}
+.inferior-direita h3 {
+  color: white;
+  font-size: 22px;
+}
